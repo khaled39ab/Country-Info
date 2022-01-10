@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Country Information</title>
 </head>
 <body>
     
+    <div>
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter a Country name ...">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-danger" id="searchBtn">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="main">
+        <h2>All Countries are bellow</h2>
+        <h5 id="countryName">
+            <ul>
+                <li></li>
+            </ul>
+        </h5>
+    </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>

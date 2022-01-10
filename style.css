@@ -1,0 +1,9 @@
+.main{
+    margin-left: 30px;
+}
+#countryName{
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: deepskyblue;
+}
