@@ -1,8 +1,7 @@
 .main{
-    margin-left: 30px;
-    color: blue;
+    color: blueviolet;
 }
-#countryName{
+#countriesName{
     margin-left: 30px;
     cursor: pointer;
     text-decoration: underline;
@@ -10,11 +9,11 @@
     list-style-type: none;
 }
 #details{
-    display: none;
-    border: 1px solid green;
-    text-align: center;
+    /* text-align: left; */
     max-width: 500px;
     border-radius: 20px;
-    display: grid;
     grid-template-columns: none;
+}
+#details img{
+    width: 400px;
 }

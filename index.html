@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +9,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Country Information</title>
 </head>
+
 <body>
-    
+
     <div>
         <form class="col-md-6 m-auto py-5">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter a Country name ...">
+                <input type="text" id="searchInput" class="form-control" placeholder="Enter a Country name ...">
                 <div class="input-group-append">
                     <button type="button" class="btn btn-danger" id="searchBtn">Search</button>
                 </div>
             </div>
         </form>
     </div>
-    <div class="main">
-        <h2>All Countries are bellow</h2>
-        <h5>
-            <ul id="countryName">
+    
+    <div class="row no-gutters">
+        <div class="col-12 col-sm-6 col-md-8 main">
+            <h2>All Countries are bellow</h2>
+            <h5>
+                <ul id="countriesName">
 
-            </ul>
-        </h5>
-    </div>
-    <div id="details">
-        <h2 style="color: blueviolet;">Country Name: </h2>
-        <h3>Flag: </h3>
-        <h4>Capital: </h4>
-        <h4>Population: </h4>
+                </ul>
+            </h5>
+        </div>
+
+        <div class="col-6 col-md-4" id="details">
+            <!-- <h2>Country Name: <span id="countryName"></span> </h2>
+            <h3 id="flag">Flag:</h3>
+            <h4>Capital: <span id="capital"></span></h4>
+            <h4>Population: <span id="population"></span></h4>
+            <h4>Area: <span id="area"></span></h4> -->
+        </div>
     </div>
 
     <script src="app.js"></script>
 
 </body>
+
 </html>
