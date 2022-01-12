@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(234, 221, 235);
+}
 .main{
     color: blueviolet;
 }
@@ -9,10 +12,13 @@
     list-style-type: none;
 }
 #details{
-    /* text-align: left; */
     max-width: 500px;
     border-radius: 20px;
     grid-template-columns: none;
+    position: fixed;
+    left: 80%;
+    top: 60%;
+    transform: translate(-50%, -50%)
 }
 #details img{
     width: 400px;

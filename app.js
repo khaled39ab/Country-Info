@@ -34,7 +34,7 @@ const renderCountryInfo = country => {
     countryDiv.innerHTML = `
     <h2>Country Name: ${country.name}</h2>
     <h2>Capital Name: ${country.capital}</h2>
-    <h2>Area: ${country.area}</h2>
+    <h2>Area: ${country.area} sq.km</h2>
     <h2>Population: ${country.population}</h2>
     <img src="${country.flag}">
     `
